@@ -142,7 +142,7 @@ def main ():
 	ax2 = ax.twinx()
 	ax2.set_ylabel('Payroll-Win% Correlation')
 	ax2.set_ylim([0.0, 1.0])
-	ax.plot(plot_season_list, plot_gini_list, color = (1, 0, 0, 1), label = 'Gini Coeffieint')
+	ax.plot(plot_season_list, plot_gini_list, color = (1, 0, 0, 1), label = 'Gini Coefficient')
 	ax2.plot(plot_season_list, plot_correlation_list, color = (0, 0.7, 0.7, 1), label = 'Payroll-Win% Correlation')
 	fig.legend(loc = 'center left', bbox_to_anchor = (0.65, 0.88), fancybox = True, prop = {'size': 6})
 	plt.tight_layout()
